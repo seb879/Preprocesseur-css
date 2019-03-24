@@ -1,0 +1,28 @@
+body {
+  background-image: url(bg_light.png)
+}
+@mixin anneau ($color, $size) {
+    border-radius:50%;
+    width:$size;
+    height:$size;
+    border:$size/12 solid $color; 
+    box-shadow: 0.2em 0.1em 0.3em $color,
+      inset 0.2em 0.1em 0.3em $color;
+  }
+  
+  .anneauOrange {
+    @include anneau(#ff5f01, 50px)
+  }
+  
+  .anneauOr {
+    @include anneau(#fccb04,170px)
+  }
+  
+  @for $i from 1 through 6 {
+      .anneau#{$i} {
+          @include anneau(black,$i*0.25*80px);
+          margin-left:-12px*($i/2.1);
+          margin-top:auto;
+          margin-bottom:auto;
+      }
+}

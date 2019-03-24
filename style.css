@@ -1,0 +1,94 @@
+@font-face {
+  font-family: aniron;
+  src: url('anicb___.ttf');
+}
+.nav-link{
+  font-family: aniron;
+  color: white;
+}
+body {
+  background-image: url(bg_light.png);
+  font-family: aniron;
+}
+
+.anneauOrange {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 4.16667px solid #ff5f01;
+  box-shadow: 0.2em 0.1em 0.3em #ff5f01, inset 0.2em 0.1em 0.3em #ff5f01;
+}
+
+.anneauOr {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  border: 14.16667px solid #fccb04;
+  box-shadow: 0.2em 0.1em 0.3em #fccb04, inset 0.2em 0.1em 0.3em #fccb04;
+}
+
+.anneau1 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1.66667px solid black;
+  box-shadow: 0.2em 0.1em 0.3em black, inset 0.2em 0.1em 0.3em black;
+  margin-left: -5.71429px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.anneau2 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 3.33333px solid black;
+  box-shadow: 0.2em 0.1em 0.3em black, inset 0.2em 0.1em 0.3em black;
+  margin-left: -11.42857px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.anneau3 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 5px solid black;
+  box-shadow: 0.2em 0.1em 0.3em black, inset 0.2em 0.1em 0.3em black;
+  margin-left: -17.14286px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.anneau4 {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 6.66667px solid black;
+  box-shadow: 0.2em 0.1em 0.3em black, inset 0.2em 0.1em 0.3em black;
+  margin-left: -22.85714px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.anneau5 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 8.33333px solid black;
+  box-shadow: 0.2em 0.1em 0.3em black, inset 0.2em 0.1em 0.3em black;
+  margin-left: -28.57143px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.anneau6 {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 10px solid black;
+  box-shadow: 0.2em 0.1em 0.3em black, inset 0.2em 0.1em 0.3em black;
+  margin-left: -34.28571px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
